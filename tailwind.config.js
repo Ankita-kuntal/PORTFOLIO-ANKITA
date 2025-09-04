@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
+        jetbrains: ['JetBrains Mono', 'monospace'],
       },
       colors: {
         'accent-blue': '#dbeafe',

@@ -1,67 +1,101 @@
 import React from 'react';
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const Projects = () => {
   return (
-    <div className="mb-16">
-      <h2 className="text-3xl font-bold text-gray-800 mb-8 ml-8">
+    <>
+      <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6 md:mb-8 ml-4 md:ml-8">
         PROJECTS
       </h2>
       
-      <div className="ml-8 grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="border-2 border-black bg-white p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-          <div className="h-40 bg-gray-200 border border-black mb-4 rounded flex items-center justify-center">
-            <span className="text-gray-600">Project Image</span>
+  <div className="ml-4 md:ml-8 grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
+        
+  <a href="https://lifeatnitsxr.vercel.app/" target="_blank" rel="noopener noreferrer" className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] block hover:shadow-lg transition-shadow duration-200">
+          <div className="h-32 md:h-40 bg-gray-200 border border-black mb-4 rounded flex items-center justify-center">
+            <img src="/NIT.png" alt="Movie Project" className="w-full h-full object-cover" />
           </div>
-          <h3 className="text-xl font-bold mb-2">E-Commerce Website</h3>
-          <p className="text-gray-700 mb-4">A full-stack e-commerce platform built with React and Node.js</p>
-          <div className="flex gap-2">
-            <span className="bg-blue-200 px-3 py-1 rounded text-sm">React</span>
-            <span className="bg-green-200 px-3 py-1 rounded text-sm">Node.js</span>
-            <span className="bg-yellow-200 px-3 py-1 rounded text-sm">MongoDB</span>
+          <h3 className="text-lg md:text-xl font-bold mb-2 flex items-center justify-between">
+            <span>Life At NIT</span>
+            <span className="flex items-center gap-4">
+              <a href="https://github.com/Ankita-kuntal/LifeAtNIT.git" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaGithub /></a>
+              <a href="https://lifeatnitsxr.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaExternalLinkAlt /></a>
+            </span>
+          </h3>
+          <p className="text-gray-700 mb-4 text-sm md:text-base">LifeAtNIT — an all-in-one website to explore everything about NIT Srinagar, from campus life to academics and opportunities.</p>
+          <div className="flex gap-2 flex-wrap">
+            <span className="bg-indigo-200 px-2 md:px-3 py-1 rounded text-xs md:text-sm">React</span>
+            <span className="bg-teal-200 px-2 md:px-3 py-1 rounded text-xs md:text-sm">Tailwind CSS</span>
+            <span className="bg-lime-200 px-2 md:px-3 py-1 rounded text-xs md:text-sm">Chart.js</span>
           </div>
-        </div>
+  </a>
 
-        <div className="border-2 border-black bg-white p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-          <div className="h-40 bg-gray-200 border border-black mb-4 rounded flex items-center justify-center">
-            <span className="text-gray-600">Project Image</span>
+  <a href="https://movie-site-demo.com" target="_blank" rel="noopener noreferrer" className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] block hover:shadow-lg transition-shadow duration-200">
+          <div className="h-32 md:h-40 bg-gray-200 border border-black mb-4 rounded overflow-hidden">
+            <img src="/movie.png" alt="Movie Project" className="w-full h-full object-cover" />
           </div>
-          <h3 className="text-xl font-bold mb-2">Task Management App</h3>
-          <p className="text-gray-700 mb-4">A collaborative task management tool with real-time updates</p>
-          <div className="flex gap-2">
-            <span className="bg-purple-200 px-3 py-1 rounded text-sm">Vue.js</span>
-            <span className="bg-red-200 px-3 py-1 rounded text-sm">Firebase</span>
-            <span className="bg-blue-200 px-3 py-1 rounded text-sm">Tailwind</span>
+          <h3 className="text-lg md:text-xl font-bold mb-2 flex items-center justify-between">
+            <span>Movie Website</span>
+            <span className="flex items-center gap-2">
+              <a href="https://github.com/ankita-kuntal/movie-site" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaGithub /></a>
+              <a href="https://movie-site-demo.com" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaExternalLinkAlt /></a>
+            </span>
+          </h3>
+          <p className="text-gray-700 mb-4 text-sm md:text-base">A movie website where users can browse, search, and explore details about their favorite films.</p>
+          <div className="flex gap-2 flex-wrap">
+            <span className="bg-purple-200 px-2 md:px-3 py-1 rounded text-xs md:text-sm">React</span>
+            <span className="bg-red-200 px-2 md:px-3 py-1 rounded text-xs md:text-sm">Tailwind CSS</span>
+            <span className="bg-blue-200 px-2 md:px-3 py-1 rounded text-xs md:text-sm">API</span>
           </div>
-        </div>
+  </a>
 
-        <div className="border-2 border-black bg-white p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-          <div className="h-40 bg-gray-200 border border-black mb-4 rounded flex items-center justify-center">
-            <span className="text-gray-600">Project Image</span>
-          </div>
-          <h3 className="text-xl font-bold mb-2">Weather Dashboard</h3>
-          <p className="text-gray-700 mb-4">A responsive weather app with location-based forecasts</p>
-          <div className="flex gap-2">
-            <span className="bg-orange-200 px-3 py-1 rounded text-sm">JavaScript</span>
-            <span className="bg-cyan-200 px-3 py-1 rounded text-sm">API</span>
-            <span className="bg-pink-200 px-3 py-1 rounded text-sm">CSS3</span>
-          </div>
-        </div>
 
-        <div className="border-2 border-black bg-white p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-          <div className="h-40 bg-gray-200 border border-black mb-4 rounded flex items-center justify-center">
-            <span className="text-gray-600">Project Image</span>
+  <a href="ankita-kuntal.github.io/wiki-banner-tool/" target="_blank" rel="noopener noreferrer" className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] block hover:shadow-lg transition-shadow duration-200">
+          <div className="h-32 md:h-40 bg-gray-200 border border-black mb-4 rounded overflow-hidden">
+            <img src="/things_i_love.png" alt="Things I Love Project" className="w-full h-full object-cover" />
           </div>
-          <h3 className="text-xl font-bold mb-2">Portfolio Website</h3>
-          <p className="text-gray-700 mb-4">A creative portfolio showcasing my design and development skills</p>
-          <div className="flex gap-2">
-            <span className="bg-indigo-200 px-3 py-1 rounded text-sm">React</span>
-            <span className="bg-teal-200 px-3 py-1 rounded text-sm">Framer Motion</span>
-            <span className="bg-lime-200 px-3 py-1 rounded text-sm">GSAP</span>
+          <h3 className="text-lg md:text-xl font-bold mb-2 flex items-center justify-between">
+            <span>UI Learning Project</span>
+            <span className="flex items-center gap-2">
+              <a href="https://github.com/Ankita-kuntal/wiki-banner-tool.git" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaGithub /></a>
+              <a href="ankita-kuntal.github.io/wiki-banner-tool/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaExternalLinkAlt /></a>
+            </span>
+          </h3>
+          <p className="text-gray-700 mb-4 text-sm md:text-base">A fun little project where I designed a UI-focused site about my favorite things — built to sharpen my design and frontend skills</p>
+          <div className="flex gap-2 flex-wrap">
+            <span className="bg-orange-200 px-2 md:px-3 py-1 rounded text-xs md:text-sm">HTML</span>
+            <span className="bg-cyan-200 px-2 md:px-3 py-1 rounded text-xs md:text-sm">CSS</span>
+            <span className="bg-pink-200 px-2 md:px-3 py-1 rounded text-xs md:text-sm">JavaScript</span>
           </div>
-        </div>
+  </a>
+
+        
+
+  <a href="weatherapp-phi-rosy.vercel.app" target="_blank" rel="noopener noreferrer" className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] block hover:shadow-lg transition-shadow duration-200">
+          <div className="h-32 md:h-40 bg-gray-200 border border-black mb-4 rounded overflow-hidden">
+            <img src="/weather.png" alt="Weather Project" className="w-full h-full object-cover" />
+          </div>
+          <h3 className="text-lg md:text-xl font-bold mb-2 flex items-center justify-between">
+            <span>Weather Dashboard</span>
+            <span className="flex items-center gap-2">
+              <a href="https://github.com/ankita-kuntal/weather-dashboard" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaGithub /></a>
+              <a href="weatherapp-phi-rosy.vercel.app" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaExternalLinkAlt /></a>
+            </span>
+          </h3>
+          <p className="text-gray-700 mb-4 text-sm md:text-base">A weather app that shows real-time weather conditions using API integration. Built with HTML, CSS, and JavaScript</p>
+          <div className="flex gap-2 flex-wrap">
+            <span className="bg-red-200 px-2 md:px-3 py-1 rounded text-xs md:text-sm">HTML</span>
+            <span className="bg-yellow-200 px-2 md:px-3 py-1 rounded text-xs md:text-sm">CSS3</span>
+            <span className="bg-blue-200 px-2 md:px-3 py-1 rounded text-xs md:text-sm">JavaScript</span>
+            <span className="bg-green-200 px-2 md:px-3 py-1 rounded text-xs md:text-sm">API</span>
+            
+          </div>
+  </a>
+
+        
       </div>
-    </div>
+    </>
   );
 };
 
 export default Projects;
+          
