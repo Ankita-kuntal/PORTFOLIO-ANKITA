@@ -109,11 +109,12 @@ const Sidebar = () => {
       {/* Mobile Hamburger Button */}
       <button
         onClick={toggleMenu}
-        className="md:hidden fixed top-4 left-4 z-50 w-10 h-10 bg-gray-800 rounded-lg flex flex-col items-center justify-center gap-1 hover:scale-110 transition-transform duration-200"
+  className="md:hidden fixed top-0 left-4 z-50 w-10 h-10 flex flex-col items-center justify-center gap-1 bg-transparent shadow-none"
+        style={{ background: 'none', boxShadow: 'none' }}
       >
-        <span className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-1.5' : ''}`}></span>
-        <span className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? 'opacity-0' : ''}`}></span>
-        <span className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></span>
+  <span className={`w-7 h-1 bg-gray-700 rounded-full transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
+  <span className={`w-7 h-1 bg-gray-700 rounded-full transition-all duration-300 ${isMenuOpen ? 'opacity-0' : ''}`}></span>
+  <span className={`w-7 h-1 bg-gray-700 rounded-full transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
       </button>
 
       {/* Mobile Overlay */}
@@ -176,7 +177,7 @@ const Sidebar = () => {
                       <a
                         href={`#${id}`}
                         onClick={closeMenu}
-                        className={`font-bold tracking-wide text-lg py-3 px-8 text-center transition-all duration-300 rounded-lg z-10 text-gray-800 hover:text-gray-600 hover:translate-x-1`}
+                        className={`font-bold tracking-wide text-lg py-3 px-8 text-center transition-all duration-300 rounded-lg z-10 text-gray-800 hover:text-white hover:translate-x-1`}
                       >
                          {label}
                 </a>

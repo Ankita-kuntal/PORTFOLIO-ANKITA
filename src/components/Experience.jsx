@@ -8,7 +8,7 @@ const Experience = () => {
       </h2>
       
       <div className="ml-4 md:ml-8 space-y-6 md:space-y-8">
-        <div className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+  <div className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-lg transition-shadow duration-200">
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4 gap-2">
             <div>
               <h3 className="text-lg md:text-xl font-bold">Frontend Developer</h3>
@@ -26,7 +26,7 @@ const Experience = () => {
           </div>
         </div>
 
-        <div className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+  <div className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-lg transition-shadow duration-200">
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4 gap-2">
             <div>
               <h3 className="text-lg md:text-xl font-bold">Contributor</h3>
@@ -45,7 +45,7 @@ const Experience = () => {
           </div>
         </div>
 
-        <div className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+  <div className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-lg transition-shadow duration-200">
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4 gap-2">
             <div>
               <h3 className="text-lg md:text-xl font-bold">Graphic Designer</h3>

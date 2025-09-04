@@ -25,7 +25,7 @@ const TypingAnimation = ({ roles, speed = 120, pause = 1200 }) => {
     return () => clearTimeout(typingTimeout);
   }, [displayedText, isDeleting, currentRole, roles, speed, pause]);
 
-    // Define colors for each role (green, yellow, red)
+
     const roleColors = [
       'text-red-400', // WEB DEVELOPER
       'text-red-400', // DSA ENTHUSIAST
@@ -33,7 +33,7 @@ const TypingAnimation = ({ roles, speed = 120, pause = 1200 }) => {
     ];
 
     return (
-      <div className={`font-jetbrains text-4xl font-extrabold px-6 py-2 text-left drop-shadow-lg ${roleColors[currentRole]}`}>
+  <div className={`font-jetbrains text-4xl font-extrabold px-2 py-0 mb-3 text-left drop-shadow-lg ${roleColors[currentRole]} text-center lg:text-left`}>
         {displayedText}
         <span className="animate-blink">|</span>
         <style>{`
