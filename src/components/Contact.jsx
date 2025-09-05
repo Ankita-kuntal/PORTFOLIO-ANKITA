@@ -128,7 +128,7 @@ const Contact = () => {
               I'm always excited to work on new projects and collaborate with creative minds. Let's build something amazing together!
             </p>
             <div className="flex justify-center items-center">
-              <img src="/cat.gif" alt="Fun GIF" className="w-64 h-64 object-contain" />
+              <img src="/cat.gif" alt="Fun GIF" loading="lazy" className="w-64 h-64 object-contain" />
             </div>
           </div>
         </div>

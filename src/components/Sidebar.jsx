@@ -134,7 +134,7 @@ const Sidebar = () => {
         {/* Cat Icon with Interactive Eyes and Portfolio Text */}
         <div className="flex flex-col items-center w-full">
           <div className="relative mb-2" ref={catRef}>
-            <img src='cat.png' className='h-20 w-48' alt="cat" />
+            <img src='cat.webp' loading="lazy" className='h-20 w-48' alt="cat" />
             
             {/* Left Eye */}
             <div 
@@ -172,14 +172,17 @@ const Sidebar = () => {
                 key={id}
                 onMouseEnter={() => handleNavHover(id)}
                 onMouseLeave={handleNavLeave}
-                className="w-3/4 flex justify-center"
+                className="w-3/4 flex justify-center relative"
               >
-                      <a
-                        href={`#${id}`}
-                        onClick={closeMenu}
-                        className={`font-bold tracking-wide text-lg py-3 px-8 text-center transition-all duration-300 rounded-lg z-10 text-gray-800 hover:text-white hover:translate-x-1`}
-                      >
-                         {label}
+                    {(activeSection === id && !hoverSection) || hoverSection === id ? (
+                      <div className="absolute inset-0 bg-[#fffeed] rounded-xl z-0 transition-all duration-300"></div>
+                    ) : null}
+                <a
+                  href={`#${id}`}
+                  onClick={closeMenu}
+                      className={`font-bold tracking-wide text-lg py-3 px-8 text-center transition-all duration-300 rounded-lg z-10 ${((activeSection === id && !hoverSection) || hoverSection === id) ? 'text-[#222]' : 'text-gray-800'} hover:text-[#222] hover:translate-x-1`}
+                >
+                  {label}
                 </a>
               </div>
             ))}

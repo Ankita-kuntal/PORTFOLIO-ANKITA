@@ -12,7 +12,7 @@ const Projects = () => {
         
   <a href="https://lifeatnitsxr.vercel.app/" target="_blank" rel="noopener noreferrer" className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] block hover:shadow-lg transition-shadow duration-200">
           <div className="h-32 md:h-40 bg-gray-200 border border-black mb-4 rounded flex items-center justify-center">
-            <img src="/NIT.png" alt="Movie Project" className="w-full h-full object-cover" />
+            <img src="/NIT.webp" alt="Movie Project" loading="lazy" className="w-full h-full object-cover" />
           </div>
           <h3 className="text-lg md:text-xl font-bold mb-2 flex items-center justify-between">
             <span>Life At NIT</span>
@@ -31,7 +31,7 @@ const Projects = () => {
 
   <a href="https://movie-site-demo.com" target="_blank" rel="noopener noreferrer" className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] block hover:shadow-lg transition-shadow duration-200">
           <div className="h-32 md:h-40 bg-gray-200 border border-black mb-4 rounded overflow-hidden">
-            <img src="/movie.png" alt="Movie Project" className="w-full h-full object-cover" />
+              <img src="/movie.webp" alt="Movie Project" loading="lazy" className="w-full h-full object-cover" />
           </div>
           <h3 className="text-lg md:text-xl font-bold mb-2 flex items-center justify-between">
             <span>Movie Website</span>
@@ -51,7 +51,7 @@ const Projects = () => {
 
   <a href="ankita-kuntal.github.io/wiki-banner-tool/" target="_blank" rel="noopener noreferrer" className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] block hover:shadow-lg transition-shadow duration-200">
           <div className="h-32 md:h-40 bg-gray-200 border border-black mb-4 rounded overflow-hidden">
-            <img src="/things_i_love.png" alt="Things I Love Project" className="w-full h-full object-cover" />
+              <img src="/things_i_love.webp" alt="Things I Love Project" loading="lazy" className="w-full h-full object-cover" />
           </div>
           <h3 className="text-lg md:text-xl font-bold mb-2 flex items-center justify-between">
             <span>UI Learning Project</span>
@@ -72,7 +72,7 @@ const Projects = () => {
 
   <a href="weatherapp-phi-rosy.vercel.app" target="_blank" rel="noopener noreferrer" className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] block hover:shadow-lg transition-shadow duration-200">
           <div className="h-32 md:h-40 bg-gray-200 border border-black mb-4 rounded overflow-hidden">
-            <img src="/weather.png" alt="Weather Project" className="w-full h-full object-cover" />
+              <img src="/weather.webp" alt="Weather Project" loading="lazy" className="w-full h-full object-cover" />
           </div>
           <h3 className="text-lg md:text-xl font-bold mb-2 flex items-center justify-between">
             <span>Weather Dashboard</span>
