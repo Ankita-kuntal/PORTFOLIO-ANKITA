@@ -70,15 +70,15 @@ const Projects = () => {
 
         
 
-  <a href="weatherapp-phi-rosy.vercel.app" target="_blank" rel="noopener noreferrer" className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] block hover:shadow-lg transition-shadow duration-200">
+  <a href="https://code-assist-winter-project-ivory.vercel.app/" target="_blank" rel="noopener noreferrer" className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] block hover:shadow-lg transition-shadow duration-200">
           <div className="h-32 md:h-40 bg-gray-200 border border-black mb-4 rounded overflow-hidden">
               <img src="/weather.webp" alt="Weather Project" loading="lazy" className="w-full h-full object-cover" />
           </div>
           <h3 className="text-lg md:text-xl font-bold mb-2 flex items-center justify-between">
             <span>Weather Dashboard</span>
             <span className="flex items-center gap-2">
-              <a href="https://github.com/ankita-kuntal/weather-dashboard" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaGithub /></a>
-              <a href="weatherapp-phi-rosy.vercel.app" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaExternalLinkAlt /></a>
+              <a href="https://github.com/Ankita-kuntal/Code_Assist_Winter_Project/tree/main/weather" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaGithub /></a>
+              <a href="https://code-assist-winter-project-ivory.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaExternalLinkAlt /></a>
             </span>
           </h3>
           <p className="text-gray-700 mb-4 text-sm md:text-base">A weather app that shows real-time weather conditions using API integration. Built with HTML, CSS, and JavaScript</p>
