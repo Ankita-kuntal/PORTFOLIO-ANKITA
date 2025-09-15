@@ -29,15 +29,15 @@ const Projects = () => {
           </div>
   </a>
 
-  <a href="https://movie-site-demo.com" target="_blank" rel="noopener noreferrer" className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] block hover:shadow-lg transition-shadow duration-200">
+  <a href="https://movie-site-beryl.vercel.app/" target="_blank" rel="noopener noreferrer" className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] block hover:shadow-lg transition-shadow duration-200">
           <div className="h-32 md:h-40 bg-gray-200 border border-black mb-4 rounded overflow-hidden">
               <img src="/movie.webp" alt="Movie Project" loading="lazy" className="w-full h-full object-cover" />
           </div>
           <h3 className="text-lg md:text-xl font-bold mb-2 flex items-center justify-between">
             <span>Movie Website</span>
             <span className="flex items-center gap-2">
-              <a href="https://github.com/ankita-kuntal/movie-site" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaGithub /></a>
-              <a href="https://movie-site-demo.com" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaExternalLinkAlt /></a>
+              <a href="https://github.com/Ankita-kuntal/Movie_site.git" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaGithub /></a>
+              <a href="https://movie-site-beryl.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaExternalLinkAlt /></a>
             </span>
           </h3>
           <p className="text-gray-700 mb-4 text-sm md:text-base">A movie website where users can browse, search, and explore details about their favorite films.</p>
@@ -49,7 +49,7 @@ const Projects = () => {
   </a>
 
 
-  <a href="ankita-kuntal.github.io/wiki-banner-tool/" target="_blank" rel="noopener noreferrer" className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] block hover:shadow-lg transition-shadow duration-200">
+  <a href="https://wiki-banner-tool.vercel.app/" target="_blank" rel="noopener noreferrer" className="border-2 border-black bg-white p-4 md:p-6 rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] block hover:shadow-lg transition-shadow duration-200">
           <div className="h-32 md:h-40 bg-gray-200 border border-black mb-4 rounded overflow-hidden">
               <img src="/things_i_love.webp" alt="Things I Love Project" loading="lazy" className="w-full h-full object-cover" />
           </div>
@@ -57,7 +57,7 @@ const Projects = () => {
             <span>UI Learning Project</span>
             <span className="flex items-center gap-2">
               <a href="https://github.com/Ankita-kuntal/wiki-banner-tool.git" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaGithub /></a>
-              <a href="ankita-kuntal.github.io/wiki-banner-tool/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaExternalLinkAlt /></a>
+              <a href="https://wiki-banner-tool.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-700"><FaExternalLinkAlt /></a>
             </span>
           </h3>
           <p className="text-gray-700 mb-4 text-sm md:text-base">A fun little project where I designed a UI-focused site about my favorite things — built to sharpen my design and frontend skills</p>
